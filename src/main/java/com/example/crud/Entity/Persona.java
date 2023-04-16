@@ -28,6 +28,9 @@ public class Persona {
     @Column(name = "clave")
     private int clave;
 
+    public Persona() {
+    }
+
     public Persona(int id) {
         this.id = id;
     }
